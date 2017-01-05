@@ -38,17 +38,18 @@
 
 
     <!-- Bootstrap core CSS     -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  />
 
     <!-- Animation library for notifications   -->
-    <link href="css/animate.min.css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="css/animate.min.css" />
 
     <!--  Paper Dashboard core CSS    -->
-    <link href="css/paper-dashboard.css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="css/paper-dashboard.css" />
 
 
     <!--  CSS for Demo Purpose, don't include it in your project     -->
-    <link href="css/demo.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="css/demo.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
 
 
     <!--  Fonts and icons     -->
@@ -69,52 +70,46 @@
 
     	<div class="sidebar-wrapper">
             <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
+                <a href="#" class="simple-text">
                     Logo
                 </a>
             </div>
 
             <ul class="nav">
                 <li class="active">
-                    <a href="dashboard.html">
+                    <a href="#">
                         <i class="fa fa-sliders"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
                 <li>
-                    <a href="user.html">
-                        <i class="fa fa-user"></i>
-                        <p>User Profile</p>
+                    <a href="#">
+                        <i class="fa fa-cog"></i>
+                        <p>Administración</p>
                     </a>
                 </li>
                 <li>
-                    <a href="table.html">
-                        <i class="fa fa-view-list-alt"></i>
-                        <p>Table List</p>
+                    <a href="#">
+                        <i class="fa fa-shield"></i>
+                        <p>Administración Soluciones de Protección</p>
                     </a>
                 </li>
                 <li>
-                    <a href="typography.html">
-                        <i class="fa fa-text"></i>
-                        <p>Typography</p>
+                    <a href="#">
+                        <i class="fa fa-lock"></i>
+                        <p>Gestor Soluciones de protección</p>
                     </a>
                 </li>
                 <li>
-                    <a href="icons.html">
-                        <i class="fa fa-pencil-alt2"></i>
-                        <p>Icons</p>
+                    <a href="#">
+                        <i class="fa fa-money"></i>
+                        <p>Recaudo</p>
                     </a>
                 </li>
                 <li>
-                    <a href="maps.html">
+                    <a href="#">
                         <i class="fa fa-map"></i>
-                        <p>Maps</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="notifications.html">
-                        <i class="fa fa-bell"></i>
-                        <p>Notifications</p>
+                        <p>Reportes y Estadisticas</p>
                     </a>
                 </li>
             </ul>
@@ -138,28 +133,28 @@
                         <li>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="fa fa-panel"></i>
-								<p>Stats</p>
+								<p>Estadísticas</p>
                             </a>
                         </li>
                         <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <i class="fa fa-bell"></i>
                                     <p class="notification">5</p>
-									<p>Notifications</p>
+									<p>Notificaciones</p>
 									<b class="caret"></b>
                               </a>
                               <ul class="dropdown-menu">
-                                <li><a href="#">Notification 1</a></li>
-                                <li><a href="#">Notification 2</a></li>
-                                <li><a href="#">Notification 3</a></li>
-                                <li><a href="#">Notification 4</a></li>
-                                <li><a href="#">Another notification</a></li>
+                                <li><a href="#">Notificación 1</a></li>
+                                <li><a href="#">Notificación 2</a></li>
+                                <li><a href="#">Notificación 3</a></li>
+                                <li><a href="#">Notificación 4</a></li>
+                                <li><a href="#">Otra Notificación</a></li>
                               </ul>
                         </li>
 						<li>
                             <a href="#">
 								<i class="fa fa-settings"></i>
-								<p>Settings</p>
+								<p>Configuración</p>
                             </a>
                         </li>
                     </ul>
@@ -351,28 +346,10 @@
 
         <footer class="footer">
             <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
-
-                        <li>
-                            <a href="http://www.creative-tim.com">
-                                Creative Tim
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://blog.creative-tim.com">
-                               Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.creative-tim.com/license">
-                                Licenses
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                
                 <div class="copyright pull-right">
-                    &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa fa-heart heart"></i> by <a href="http://www.creative-tim.com">Creative Tim</a>
+                    &copy; <script>document.write(new Date().getFullYear())</script> Todos los derechos reservados<br />
+                    Powered by <a href="http://www.ciberdix.com">Ciberdix</a>
                 </div>
             </div>
         </footer>
@@ -413,7 +390,7 @@
 
         	$.notify({
             	icon: 'fa fa-gift',
-            	message: "<p>Hola, Bienvenido de nuevo <b>Usuario.</p>"
+            	message: "Hola, Bienvenido de nuevo <b>Usuario</b>."
             },{
                 type: 'success',
                 timer: 4000
