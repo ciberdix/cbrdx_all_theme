@@ -358,3 +358,9 @@
         display: none;
     }
 }
+
+
+.logo{
+  background-image: url("../img/logo.png");
+  height: 82px;
+}
