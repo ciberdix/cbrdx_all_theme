@@ -55,7 +55,7 @@
     <!--  Fonts and icons     -->
     <link rel='stylesheet' type='text/css' href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" >
     <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Muli:400,300' >
-    <link rel='stylesheet' type='text/css' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
 
 </head>
 <body>
@@ -70,18 +70,18 @@
 
     	<div class="sidebar-wrapper">
             <div class="logo">
-                
+
             </div>
 
             <ul class="nav">
-                <li class="active">
-                    <a href="#">
+                <li>
+                    <a href="index.html">
                         <i class="fa fa-sliders"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
+                <li class="active">
+                    <a href="tables.html">
                         <i class="fa fa-cog"></i>
                         <p>Administración</p>
                     </a>
@@ -130,16 +130,15 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-panel"></i>
-								<p>Estadísticas</p>
+															<p>Viernes, 6 de Enero de 2017</p>
                             </a>
                         </li>
                         <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <i class="fa fa-bell"></i>
                                     <p class="notification">5</p>
-									<p>Notificaciones</p>
-									<b class="caret"></b>
+																		<p>Notificaciones</p>
+																		<b class="caret"></b>
                               </a>
                               <ul class="dropdown-menu">
                                 <li><a href="#">Notificación 1</a></li>
@@ -149,14 +148,18 @@
                                 <li><a href="#">Otra Notificación</a></li>
                               </ul>
                         </li>
-						<li>
-                            <a href="#">
-								<i class="fa fa-settings"></i>
-								<p>Configuración</p>
+												<li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+															<i class="fa fa-user"></i>
+															<p>Usuario</p>
+															<b class="caret"></b>
                             </a>
+														<ul class="dropdown-menu">
+															<li><a href="#">Editar Info</a></li>
+															<li><a href="#">Cerrar Sesión</a></li>
+														</ul>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
@@ -169,73 +172,73 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">Striped Table</h4>
-                                <p class="category">Here is a subtitle for this table</p>
+                                <h4 class="title">Colaboradores</h4>
+                                <p class="category">Tabla de los colaboradores</p>
                             </div>
                             <div class="content table-responsive table-full-width">
-                                <table class="table">
+                                <table class="table table-hover">
                                             <thead>
                                                 <tr>
                                                     <th class="text-center">#</th>
-                                                    <th>Name</th>
-                                                    <th>Job Position</th>
-                                                    <th>Since</th>
-                                                    <th class="text-right">Salary</th>
-                                                    <th class="text-right">Actions</th>
+                                                    <th>Nombre</th>
+                                                    <th>Cargo</th>
+                                                    <th>Desde</th>
+                                                    <th class="text-right">Salario</th>
+                                                    <th class="text-right">Acciones</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td class="text-center">1</td>
                                                     <td>Andrew Mike</td>
-                                                    <td>Develop</td>
+                                                    <td>Programador</td>
                                                     <td>2013</td>
-                                                    <td class="text-right">€ 99,225</td>
+                                                    <td class="text-right">$ 500.000</td>
                                                     <td class="td-actions text-right">
                                                         <button type="button" rel="tooltip" class="btn btn-info" data-original-title="" title="">
-                                                            <i class="material-icons">person</i>
+                                                            <i class="fa fa-cog"></i>
                                                         </button>
                                                         <button type="button" rel="tooltip" class="btn btn-success" data-original-title="" title="">
-                                                            <i class="material-icons">edit</i>
+                                                            <i class="fa fa-pencil"></i>
                                                         </button>
                                                         <button type="button" rel="tooltip" class="btn btn-danger" data-original-title="" title="">
-                                                            <i class="material-icons">close</i>
+                                                            <i class="fa fa-times"></i>
                                                         </button>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center">2</td>
                                                     <td>John Doe</td>
-                                                    <td>Design</td>
+                                                    <td>Diseñador</td>
                                                     <td>2012</td>
-                                                    <td class="text-right">€ 89,241</td>
-                                                    <td class="td-actions text-right">
-                                                        <button type="button" rel="tooltip" class="btn btn-info btn-round" data-original-title="" title="">
-                                                            <i class="material-icons">person</i>
+                                                    <td class="text-right">$ 600.000</td>
+																										<td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" class="btn btn-info" data-original-title="" title="">
+                                                            <i class="fa fa-cog"></i>
                                                         </button>
-                                                        <button type="button" rel="tooltip" class="btn btn-success btn-round" data-original-title="" title="">
-                                                            <i class="material-icons">edit</i>
+                                                        <button type="button" rel="tooltip" class="btn btn-success" data-original-title="" title="">
+                                                            <i class="fa fa-pencil"></i>
                                                         </button>
-                                                        <button type="button" rel="tooltip" class="btn btn-danger btn-round" data-original-title="" title="">
-                                                            <i class="material-icons">close</i>
+                                                        <button type="button" rel="tooltip" class="btn btn-danger" data-original-title="" title="">
+                                                            <i class="fa fa-times"></i>
                                                         </button>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center">3</td>
                                                     <td>Alex Mike</td>
-                                                    <td>Design</td>
+                                                    <td>Diseñador</td>
                                                     <td>2010</td>
-                                                    <td class="text-right">€ 92,144</td>
-                                                    <td class="td-actions text-right">
-                                                        <button type="button" rel="tooltip" class="btn btn-info btn-simple" data-original-title="" title="">
-                                                            <i class="material-icons">person</i>
+                                                    <td class="text-right">$ 700.000</td>
+																										<td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" class="btn btn-info" data-original-title="" title="">
+                                                            <i class="fa fa-cog"></i>
                                                         </button>
-                                                        <button type="button" rel="tooltip" class="btn btn-success btn-simple" data-original-title="" title="">
-                                                            <i class="material-icons">edit</i>
+                                                        <button type="button" rel="tooltip" class="btn btn-success" data-original-title="" title="">
+                                                            <i class="fa fa-pencil"></i>
                                                         </button>
-                                                        <button type="button" rel="tooltip" class="btn btn-danger btn-simple" data-original-title="" title="">
-                                                            <i class="material-icons">close</i>
+                                                        <button type="button" rel="tooltip" class="btn btn-danger" data-original-title="" title="">
+                                                            <i class="fa fa-times"></i>
                                                         </button>
                                                     </td>
                                                 </tr>
@@ -244,34 +247,34 @@
                                                     <td>Mike Monday</td>
                                                     <td>Marketing</td>
                                                     <td>2013</td>
-                                                    <td class="text-right">€ 49,990</td>
-                                                    <td class="td-actions text-right">
-                                                        <button type="button" rel="tooltip" class="btn btn-info btn-round" data-original-title="" title="">
-                                                            <i class="material-icons">person</i>
+                                                    <td class="text-right">$ 800.000</td>
+																										<td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" class="btn btn-info" data-original-title="" title="">
+                                                            <i class="fa fa-cog"></i>
                                                         </button>
-                                                        <button type="button" rel="tooltip" class="btn btn-success btn-round" data-original-title="" title="">
-                                                            <i class="material-icons">edit</i>
+                                                        <button type="button" rel="tooltip" class="btn btn-success" data-original-title="" title="">
+                                                            <i class="fa fa-pencil"></i>
                                                         </button>
-                                                        <button type="button" rel="tooltip" class="btn btn-danger btn-round" data-original-title="" title="">
-                                                            <i class="material-icons">close</i>
+                                                        <button type="button" rel="tooltip" class="btn btn-danger" data-original-title="" title="">
+                                                            <i class="fa fa-times"></i>
                                                         </button>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center">5</td>
                                                     <td>Paul Dickens</td>
-                                                    <td>Communication</td>
+                                                    <td>Comunicación</td>
                                                     <td>2015</td>
                                                     <td class="text-right">€ 69,201</td>
-                                                    <td class="td-actions text-right">
+																										<td class="td-actions text-right">
                                                         <button type="button" rel="tooltip" class="btn btn-info" data-original-title="" title="">
-                                                            <i class="material-icons">person</i>
+                                                            <i class="fa fa-cog"></i>
                                                         </button>
                                                         <button type="button" rel="tooltip" class="btn btn-success" data-original-title="" title="">
-                                                            <i class="material-icons">edit</i>
+                                                            <i class="fa fa-pencil"></i>
                                                         </button>
                                                         <button type="button" rel="tooltip" class="btn btn-danger" data-original-title="" title="">
-                                                            <i class="material-icons">close</i>
+                                                            <i class="fa fa-times"></i>
                                                         </button>
                                                     </td>
                                                 </tr>
