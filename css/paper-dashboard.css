@@ -355,9 +355,8 @@ hr {
 }
 .sidebar .nav i,
 .off-canvas-sidebar .nav i {
-  font-size: 24px;
-  float: left;
-  margin-right: 15px;
+  font-size: 48px;
+  margin-right: 3px;
   line-height: 30px;
   width: 30px;
   text-align: center;
