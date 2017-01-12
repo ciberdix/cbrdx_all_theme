@@ -55,58 +55,62 @@
         <!--  Fonts and icons     -->
         <link rel='stylesheet' type='text/css' href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" >
         <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Muli:400,300' >
-
+        <link type="text/css" rel="stylesheet" href="font/style.css" />
 
     </head>
     <body>
 
         <div class="wrapper">
-            <div class="sidebar" data-background-color="white" data-active-color="danger">
+            <div class="sidebar" data-background-color="black" data-active-color="crz">
 
                 <!--
                             Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
-                            Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+                            Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger | crz"
                 -->
 
                 <div class="sidebar-wrapper">
                     <div class="logo">
-
+                        <img class="img-responsive" src="img/demologo.png" alt="Logo"/>
                     </div>
 
                     <ul class="nav">
                         <li>
                             <a href="index.html">
-                                <i class="fa fa-sliders"></i>
+                                <i class="icon-SPDashboard"></i>
                                 <p>Dashboard</p>
                             </a>
                         </li>
                         <li class="active">
-                            <a href="tables.html">
-                                <i class="fa fa-cog"></i>
+                            <a href="table.html">
+                                <i class="icon-SPApl"></i>
                                 <p>Administración</p>
                             </a>
                         </li>
+
                         <li>
                             <a href="#">
-                                <i class="fa fa-shield"></i>
-                                <p>Administración Soluciones de Protección</p>
+                                <i class="icon-SPAsp"></i>
+                                <p>Admin Soluciones de Protección</p>
                             </a>
                         </li>
+
                         <li>
                             <a href="#">
-                                <i class="fa fa-lock"></i>
+                                <i class="icon-SPGsp"></i>
                                 <p>Gestor Soluciones de protección</p>
                             </a>
                         </li>
+
                         <li>
                             <a href="#">
-                                <i class="fa fa-money"></i>
+                                <i class="icon-SPRec"></i>
                                 <p>Recaudo</p>
                             </a>
                         </li>
+
                         <li>
                             <a href="#">
-                                <i class="fa fa-map"></i>
+                                <i class="icon-SPRep"></i>
                                 <p>Reportes y Estadisticas</p>
                             </a>
                         </li>
@@ -175,6 +179,9 @@
                                         <h4 class="title">Colaboradores</h4>
                                         <p class="category">Tabla de los colaboradores</p>
                                     </div>
+                                    <div class="col-md-offset-8 col-md-4 search-box">
+                                        <input type="text"  class="form-control border-input" placeholder="Buscar..." />
+                                    </div>
                                     <div class="content table-responsive table-full-width">
                                         <table class="table table-hover">
                                             <thead>
@@ -190,7 +197,7 @@
                                             <tbody>
                                                 <tr>
                                                     <td class="text-center">1</td>
-                                                    <td>Andrew Mike</td>
+                                                    <td>Andres Mateus</td>
                                                     <td>Programador</td>
                                                     <td>2013</td>
                                                     <td class="text-right">$ 500.000</td>
@@ -208,7 +215,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center">2</td>
-                                                    <td>John Doe</td>
+                                                    <td>John Reyes</td>
                                                     <td>Diseñador</td>
                                                     <td>2012</td>
                                                     <td class="text-right">$ 600.000</td>
@@ -226,7 +233,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center">3</td>
-                                                    <td>Alex Mike</td>
+                                                    <td>Alex Rodriguez</td>
                                                     <td>Diseñador</td>
                                                     <td>2010</td>
                                                     <td class="text-right">$ 700.000</td>
@@ -244,7 +251,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center">4</td>
-                                                    <td>Mike Monday</td>
+                                                    <td>Carlos Torres</td>
                                                     <td>Marketing</td>
                                                     <td>2013</td>
                                                     <td class="text-right">$ 800.000</td>
@@ -262,10 +269,10 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="text-center">5</td>
-                                                    <td>Paul Dickens</td>
+                                                    <td>Victor Gomez</td>
                                                     <td>Comunicación</td>
                                                     <td>2015</td>
-                                                    <td class="text-right">€ 69,201</td>
+                                                    <td class="text-right">$ 690.201</td>
                                                     <td class="td-actions text-right">
                                                         <button type="button" rel="tooltip" class="btn btn-info" data-original-title="" title="">
                                                             <i class="fa fa-cog"></i>
@@ -320,8 +327,7 @@
     <!--  Notifications Plugin    -->
     <script src="js/bootstrap-notify.js"></script>
 
-    <!--  Google Maps Plugin    -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
 
     <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
     <script src="js/paper-dashboard.js"></script>
@@ -330,16 +336,4 @@
     <script src="js/demo.js"></script>
     <script src="js/jquery.sharrre.js"></script>
 
-    <script type="text/javascript">
-                    $(document).ready(function () {
-                        demo.initChartist();
-                        $.notify({
-                            icon: 'fa fa-gift',
-                            message: "Hola, Bienvenido de nuevo <b>Usuario</b>."
-                        }, {
-                            type: 'success',
-                            timer: 4000
-                        });
-                    });
-    </script>
 </html>
