@@ -1,0 +1,40 @@
+
+.sidebar:after, 
+.sidebar:before,
+.off-canvas-sidebar:after,
+.off-canvas-sidebar:before{
+    background-color: #000;
+}
+
+.sidebar .logo,
+.off-canvas-sidebar .logo {
+    border-bottom: 1px solid rgba(102, 97, 91, 0.3);
+}
+
+.sidebar .logo p,
+.off-canvas-sidebar .logo p {
+    color: #66615B;
+}
+
+.sidebar .logo .simple-text,
+.off-canvas-sidebar .logo .simple-text {
+    color: #66615B;
+}
+.sidebar .nav li:not(.active) > a, 
+.off-canvas-sidebar .nav li:not(.active) > a {
+    color: #66615B;
+}
+
+.sidebar .nav .divider,
+.off-canvas-sidebar .nav .divider {
+    background-color: rgba(102, 97, 91, 0.2);
+}
+
+
+
+
+.sidebar .nav li.active > a,
+.off-canvas-sidebar .nav li.active > a {
+    color: #7A9E9F;
+    opacity: 1;
+}

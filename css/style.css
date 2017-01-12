@@ -6,7 +6,7 @@
     text-align: center;
 }
 .nav li{
-   /* border-bottom: 1px solid rgba(246, 246, 246, .5); */
+    /* border-bottom: 1px solid rgba(246, 246, 246, .5); */
 }
 
 .buscar-table{
@@ -50,4 +50,33 @@
 }
 .nav>li>a {
     padding: 8px 4px;
+}
+
+
+.menu-theme{
+    margin: 0 15px 10px;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.colortheme{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.colorwhite{
+    background-color: white;
+}
+.colorblack{
+    background-color: #333;
+}
+.colorblue{
+    background-color: #006ca8;
+}
+.colorgreen{
+    background-color: #00632e;
 }
