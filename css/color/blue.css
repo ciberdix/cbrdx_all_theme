@@ -3,15 +3,17 @@
 .sidebar:before,
 .off-canvas-sidebar:after,
 .off-canvas-sidebar:before{
-    background-color: #FFFFFF;
+    background-color: #006CA8;
 }
 .card .icon-big {
-    color: #4d4d4d;
+    color: #006CA8;
   }
-
+.sidebar .logo {
+  color:#FFFFFF;
+}
 .sidebar .logo,
 .off-canvas-sidebar .logo {
-    border-bottom: 1px solid rgba(102, 97, 91, 0.3);
+    border-bottom: 1px solid rgba(230, 230, 230, 1)
 }
 
 .sidebar .logo p,
@@ -25,7 +27,7 @@
 }
 .sidebar .nav li:not(.active) > a,
 .off-canvas-sidebar .nav li:not(.active) > a {
-    color: #66615B;
+    color: #ffffff;
 }
 
 .sidebar .nav .divider,
@@ -38,6 +40,6 @@
 
 .sidebar .nav li.active > a,
 .off-canvas-sidebar .nav li.active > a {
-    color: #00632E;
+    color: #29ABE2;
     opacity: 1;
 }

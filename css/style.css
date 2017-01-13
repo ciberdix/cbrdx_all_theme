@@ -1,4 +1,4 @@
-/* 
+/*
     Created on : 11/01/2017, 09:27:23 AM
     Author     : Administrador
 */
@@ -80,9 +80,10 @@
 .colorgreen{
     background-color: #00632e;
 }
-
-
 .sidebar .logo{
-    font-size: 25px; 
+    font-size: 25px;
     font-weight: bold;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    margin-top: 6px;
 }
