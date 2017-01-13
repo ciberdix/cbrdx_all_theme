@@ -80,3 +80,9 @@
 .colorgreen{
     background-color: #00632e;
 }
+
+
+.sidebar .logo{
+    font-size: 25px; 
+    font-weight: bold;
+}
